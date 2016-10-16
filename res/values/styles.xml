@@ -17,8 +17,10 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar"><!--NoActionBar removes the ActionBar @ top, so we can introduce our own Toolbar-->
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="android:colorAccent">@color/theme_accent</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
