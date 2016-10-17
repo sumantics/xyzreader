@@ -8,6 +8,13 @@
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
+    <dimen name="recycler_padding_top">116dp</dimen>
+    <dimen name="recycler_padding_bottom">2dp</dimen>
+    <dimen name="recycler_padding_left">4dp</dimen>
+    <dimen name="recycler_padding_right">4dp</dimen>
+
     <dimen name="pin_elevation">4dp</dimen>
+
+    <dimen name="picture_height">250dp</dimen>
 
 </resources>
